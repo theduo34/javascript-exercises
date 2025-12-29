@@ -36,5 +36,5 @@ const num = 24
 const isEven = num % 2 === 0
 
 console.log(`Question10 answer => ${
-  isEven ? `${num} is even number` : `${num} is old number`}`
+  isEven ? `${num} is even number.` : `${num} is old number.`}`
 );
