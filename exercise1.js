@@ -12,13 +12,15 @@ const num2 = 8;
 const sum = num1 + num2;
 const difference = num1 - num2;
 const product = num1 * num2;
-const quotient = num1 % num2;
+const quotient = num1 / num2;
 
 console.log("Question2 answer => " + "Sum is " + sum + ", difference is " + difference + ", product is " + product + ", quotient is " + quotient + ".");
 
 // Solution for Question3
 const temperature = 22;
+
 const questionNo = "Question3 answer => ";
+
 if(temperature < 20) {
   console.log(questionNo + "It's cold." );
 } else {
@@ -35,7 +37,9 @@ console.log("Question4 answer => " + "After discount final price is " + finalPri
 
 // Solution for Question5
 const number = -0;
+
 const solutionNumber = "Question5 answer => ";
+
 if(number > 0) {
   console.log(solutionNumber + number + " is a positive number");
 } else if ( number < 0 ) {
