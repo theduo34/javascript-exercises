@@ -48,6 +48,7 @@ console.log(`Question14 answer => ${
 
 // Solution for Question15
 const answerNo15 = "Question15 answer => "
+
 const subject1 = 78;
 const subject2 = 85;
 const subject3 = 92;
