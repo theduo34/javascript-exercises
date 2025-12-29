@@ -30,7 +30,7 @@ const year = 2023;
 const isLeapYear = (year % 4 === 0 && year % 100 !== 0) ||
   (year % 400 === 0)
 
-console.log(`Question13 answer => ${isLeapYear ? `${year} is a leap year` : `${year} is not a leap year`}`)
+console.log(`Question13 answer => ${isLeapYear ? `${year} is a leap year.` : `${year} is not a leap year.`}`)
 
 // Solution for Question14
 const number = 47;
@@ -40,10 +40,10 @@ const divisibleBy5 = number % 5 === 0;
 
 console.log(`Question14 answer => ${
   divisibleBy3 && divisibleBy5
-    ? `${number} is divisible by 3 and 5`
+    ? `${number} is divisible by 3 and 5.`
     : divisibleBy3
-      ? `${number} is divisible by 3`
-      : `${number} is divisible by 5 `
+      ? `${number} is divisible by 3.`
+      : `${number} is divisible by 5. `
 }`);
 
 // Solution for Question15
