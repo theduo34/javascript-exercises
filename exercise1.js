@@ -27,7 +27,7 @@ console.log(`Question3 answer => ${
 
 // Solution for Question4
 const price = 50;
-const discount = 10; //discount not in percentage
+const discount = 10;  //discount not in percentage
 
 const finalPrice = price - discount;
 
