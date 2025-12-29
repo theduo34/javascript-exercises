@@ -4,11 +4,11 @@ const character = "A";
 let result ;
 
 if(character >= "A" && character <= "Z"){
-  result = "Character is uppercase letter";
+  result = "Character is uppercase letter.";
 } else if(character >= "a" && character <= "z"){
-  result = "Character is lowercase";
+  result = "Character is lowercase.";
 } else {
-  result = "Neither uppercase letter nor lowercase";
+  result = "Neither uppercase letter nor lowercase.";
 }
 
 console.log(`Question16 answer => ${result}`)
@@ -19,7 +19,7 @@ const age = 27;
 const hasLicense = true;
 
 console.log(`Question17 answer => ${
-  age && hasLicense ? "Can drive" : "Can not drive"
+  age && hasLicense ? "Can drive." : "Can not drive."
 }`);
 
 // Solution for Question18
@@ -29,7 +29,7 @@ const isMember = true;
 const  discount = isMember ? 20/100 : 5/100;
 const finalTotalAmount = totalAmount - (discount * totalAmount);
 
-console.log(`Question18 answer => After discount total is ${finalTotalAmount}`)
+console.log(`Question18 answer => After discount total is ${finalTotalAmount}.`)
 
 
 // Solution for Question19
